@@ -14,9 +14,9 @@
             text-align: center;
         }
         header {
-            background-color: #2d8700; /* Azul primário */
+            background-color: #2d8700;
             color: white;
-            padding: 20px 0;
+            padding: 20px 11px;
         }
         nav {
             margin-top: 20px;
@@ -26,251 +26,60 @@
             text-decoration: none;
             margin: 0 15px;
             font-size: 1.1em;
-            …
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossa História - Mãos Solidárias</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #2d8700;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        nav {
-            margin-top: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
             padding: 8px 12px;
             border: 1px solid white;
             border-radius: 5px;
-            transition: background-color 0.3s;
         }
         nav a:hover {
-            background-color: #0056b3;
+            background-color: #1e7e34;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x600?text=Beto+Verde') no-repeat center/cover;
+            color: white;
+            padding: 80px 20px;
+            margin: 20px 0;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
         }
         .content {
-            padding: 30px;
             max-width: 800px;
             margin: 20px auto;
-            background-color: white;
+            padding: 20px;
+            background: white;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .content h2 {
-            color: #28a745;
-            border-bottom: 2px solid #28a745;
-            padding-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         footer {
             background-color: #333;
             color: white;
-            padding: 10px 0;
-            text-align: center;
+            padding: 15px 0;
             margin-top: 30px;
         }
     </style>
 </head>
 <body>
-
     <header>
         <h1>Beto Verde</h1>
         <nav>
             <a href="index.html">Início</a>
+            <a href="historia.html">Nossa História</a>
             <a href="doacao.html">Doe ou Inscreva-se</a>
         </nav>
     </header>
 
+    <div class="hero">
+        <h2>Juntos pela Mudança</h2>
+        <p>Transformando vidas com educação, saúde e sustentabilidade.</p>
+    </div>
+
     <div class="content">
-        <h2>Como Tudo Começou</h2>
-        <p>A ONG "Mãos Solidárias" nasceu em 2010 da visão de Maria da Silva, uma professora aposentada que testemunhou as dificuldades de acesso à educação em uma comunidade rural próxima à sua cidade. Ela começou com uma pequena biblioteca em sua garagem, utilizando seus próprios livros e recursos.</p>
-
-        <h2>Nossa Expansão</h2>
-        <p>O movimento cresceu rapidamente. Com a ajuda de voluntários locais e a primeira rodada de pequenas doações, a garagem se tornou um pequeno centro comunitário em 2012. Passamos a oferecer oficinas de reforço escolar, cursos profissionalizantes básicos e campanhas de saúde preventiva.</p>
-        
-        <h2>O Impacto Hoje</h2>
-        <p>Hoje, "Mãos Solidárias" é uma referência na região, impactando diretamente a vida de mais de 500 famílias anualmente. Temos três centros de apoio e programas ativos nas áreas de educação, meio ambiente e empreendedorismo. Nossa missão continua a mesma: oferecer as ferramentas necessárias para que cada indivíduo possa construir um futuro melhor.</p>
-        
-        <p><strong>Faça parte desta história!</strong> Sua contribuição nos ajuda a alcançar mais pessoas.</p>
+        <h2>Bem-vindo à Beto Verde</h2>
+        <p>Uma ONG dedicada a melhorar a vida das pessoas através de projetos reais e impacto direto na comunidade.</p>
+        <p>Desde 2010, ajudamos mais de 500 famílias com educação, saúde e oportunidades.</p>
+        <p><strong>Faça parte!</strong> Doe, seja voluntário ou conheça nossa história.</p>
     </div>
 
     <footer>
-        &copy; 2025 Mãos Solidárias. História e Missão.
+        &copy; 2025 Beto Verde. Todos os direitos reservados.
     </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscrição e Doação - Mãos Solidárias</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #2d8700;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        nav {
-            margin-top: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            padding: 8px 12px;
-            border: 1px solid white;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        nav a:hover {
-            background-color: #0056b3;
-        }
-        .container {
-            display: flex;
-            justify-content: space-around;
-            max-width: 1000px;
-            margin: 20px auto;
-            padding: 20px;
-        }
-        .form-box {
-            background-color: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 45%;
-        }
-        .form-box h2 {
-            color: #28a745;
-            border-bottom: 2px solid #28a745;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        label {
-            display: block;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-        input[type="text"], input[type="email"], input[type="number"], select {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box; /* Garante que o padding não aumente o width total */
-        }
-        button {
-            background-color: #28a745;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1.1em;
-            margin-top: 20px;
-            width: 100%;
-            transition: background-color 0.3s;
-        }
-        button:hover {
-            background-color: #1e7e34;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-            margin-top: 30px;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Faça a Diferença!</h1>
-        <p>Inscreva-se como Voluntário ou Faça uma Doação</p>
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="projetos.html">Nossa História</a>
-        </nav>
-    </header>
-
-    <div class="container">
-        <div class="form-box">
-            <h2>Faça sua Doação Mensal</h2>
-            <form action="#" method="POST">
-                <label for="nome_doador">Nome Completo:</label>
-                <input type="text" id="nome_doador" name="nome_doador" required>
-
-                <label for="email_doador">E-mail:</label>
-                <input type="email" id="email_doador" name="email_doador" required>
-
-                <label for="valor_doacao">Valor (R$):</label>
-                <input type="number" id="valor_doacao" name="valor_doacao" min="10" step="1" value="50" required>
-                
-                <label for="frequencia">Frequência:</label>
-                <select id="frequencia" name="frequencia">
-                    <option value="unica">Doação Única</option>
-                    <option value="mensal" selected>Mensal</option>
-                    <option value="trimestral">Trimestral</option>
-                </select>
-
-                <p style="font-size: 0.9em; margin-top: 15px;">*Obs: Este é um formulário de exemplo. Em um site real, seriam adicionados campos para informações de pagamento.</p>
-
-                <button type="submit">Doar Agora</button>
-            </form>
-        </div>
-
-        <div class="form-box">
-            <h2>Seja um Voluntário</h2>
-            <form action="#" method="POST">
-                <label for="nome_voluntario">Nome Completo:</label>
-                <input type="text" id="nome_voluntario" name="nome_voluntario" required>
-
-                <label for="email_voluntario">E-mail:</label>
-                <input type="email" id="email_voluntario" name="email_voluntario" required>
-
-                <label for="area">Área de Interesse:</label>
-                <select id="area" name="area" required>
-                    <option value="">Selecione uma Área</option>
-                    <option value="educacao">Educação e Reforço Escolar</option>
-                    <option value="saude">Saúde e Bem-Estar</option>
-                    <option value="eventos">Organização de Eventos</option>
-                    <option value="geral">Suporte Geral e Administrativo</option>
-                </select>
-
-                <label for="disponibilidade">Disponibilidade (horas/semana):</label>
-                <input type="number" id="disponibilidade" name="disponibilidade" min="1" max="40" value="4" required>
-
-                <button type="submit">Inscrever-se</button>
-            </form>
-        </div>
-    </div>
-
-    <footer>
-        &copy; 2025 Mãos Solidárias. Doe e Participe!
-    </footer>
-
 </body>
 </html>
